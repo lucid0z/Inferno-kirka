@@ -1,0 +1,73 @@
+@font-face {
+    font-family: gamefont;
+    src: url("https://raw.githubusercontent.com/lucid0z/Inferno-kirka/main/Fax%20Sans%20Beta.otf");
+}
+
+*{
+    font-family: gamefont;
+    text-decoration:none;
+    -webkit-text-stroke: 0px;  /* Removes any text stroke */
+    text-shadow: none;         /* Removes any text shadow */
+    color: inherit;    
+}
+
+
+.background[data-v-095fb124]{
+    background-image: url("https://cdn.discordapp.com/attachments/1252322361630523496/1280602540525883464/ye0Q238.jpg?ex=66d8ad8e&is=66d75c0e&hm=96a7cbb0ef3dba399d2c0e69e6a7d385c15e58fd71c8f9952c741d399a71930b&");
+        background-size:cover;
+}
+
+.bg-radial[data-v-095fb124],
+.card-cont[data-v-e3674cae],
+.icon-btn[data-v-323a31a5],
+.left-icons[data-v-095fb124],
+.container[data-v-112b925e],
+.background[data-v-112b925e],
+.quest[data-v-5392a807],
+.quests[data-v-5392a807],
+.container[data-v-743871fa],
+.settings-holder[data-v-6af76f93],
+.container-card[data-v-06d5e102],
+
+.invite-btn[data-v-095fb124],
+.messages[data-v-6ef897a5],
+.right-container[data-v-204868a7],
+.cont-endurance[data-v-669e4a78]
+{
+    background:transparent !important;
+    border: none;
+}
+
+
+.logo[data-v-095fb124]{
+    top: -53.5rem;
+}
+
+.clan-tag {
+    
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgb(137, 77, 255) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+
+
+
+
+
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text color transparent */
+}
+
+.endurance-progress[data-v-669e4a78]{
+    background: rgb(147, 61, 232);
+}
